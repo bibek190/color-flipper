@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.background-text {
+  padding: 1rem 2rem;
+  color: white;
+  background: #000;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.background-text h2 {
+  content: "red";
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  background: floralwhite;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+button:hover {
+  color: white;
+  background: rgb(42, 38, 38);
+  transform: translateY(-1px);
+}
